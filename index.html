@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin: 20px 0 0 450px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="grid-container">
+
+    <div class="item1">
+      <div class="content">
+        <div class="profile-pic">
+          <img class="profile-img" src="images/image-jeremy.png" alt="">
+        </div>
+        <div class="name">
+          <p>Report for</p>
+          <h1>Jeremy</h1>
+          <h1>Robson</h1>
+        </div>
+
+      </div>
+      <div class="week-days">
+        <p id="daily">Daily</p>
+        <p id="weekly" class="active">Weekly</p>
+        <p id="monthly">Monthly</p>
+      </div>
+
+    </div>
+
+    <div class="card" id="work">
+      <div class="cardbody">
+        <div class="card-header">
+          <p>Work</p>
+          </div>
+
+          <div class="data">
+            <h1 class="time" id="work-time">32hrs</h1>
+            <p class="previous-time" id="work-prev">Last Week - 36hrs</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="card" id="play">
+      <div class="cardbody">
+        <div class="card-header">
+          <p>Play</p>
+          </div>
+
+          <div class="data">
+            <h1 class="time" id="play-time">10hrs</h1>
+            <p class="previous-time" id="play-prev">Last Week - 8hrs</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="card" id="study">
+      <div class="cardbody">
+        <div class="card-header">
+          <p>Study</p>
+          </div>
+          <div class="data">
+            <h1 class="time" id="study-time">4hrs</h1>
+            <p class="previous-time" id="study-prev">Last Week - 7hrs</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="card" id="exercise">
+      <div class="cardbody">
+        <div class="card-header">
+          <p>Exercise</p>
+          </div>
+          <div class="data">
+            <h1 class="time" id="exercise-time">4hrs</h1>
+            <p class="previous-time" id="exercise-prev">Last Week - 5hrs</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="card" id="social">
+      <div class="cardbody">
+        <div class="card-header">
+          <p>Social</p>
+          </div>
+          <div class="data">
+            <h1 class="time" id="social-time">5hrs</h1>
+            <p class="previous-time" id="social-prev">Last Week - 10hrs</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="card" id="selfcare">
+      <div class="cardbody">
+        <div class="card-header">
+          <p>Self Care</p>
+          </div>
+          <div class="data">
+            <h1 class="time" id="selfcare-time">2hrs</h1>
+            <p class="previous-time" id="selfcare-prev">Last Week - 2hrs</p>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#"> Ogunniyi Samuel</a>.
+  </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
